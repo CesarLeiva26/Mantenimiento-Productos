@@ -29,7 +29,7 @@
         <td th:text="${producto.calcularGanancias()}"></td>
         <td>
             <a th:href="@{/producto/actualizar(idproducto=${producto.idproductos})}">Actualizar</a>
-            <a th:href="@{/producto/eliminar(idproducto=${producto.idproductos})}" onclick="return confirm('¿Estás seguro?')">Eliminar</a>
+            <a th:href="@{/producto/eliminar(idproducto=${producto.idproductos})}" onclick="return confirm('¿Estás seguro de eliminar el Producto?')">Eliminar</a>
         </td>
     </tr>
     </tbody>

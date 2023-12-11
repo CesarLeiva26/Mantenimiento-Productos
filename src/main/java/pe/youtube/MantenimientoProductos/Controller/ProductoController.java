@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import pe.youtube.MantenimientoProductos.Model.Producto;
 import pe.youtube.MantenimientoProductos.Service.ProductoService;
 
-import java.util.List;
 @Controller
 @AllArgsConstructor
 @RequestMapping("/producto")
